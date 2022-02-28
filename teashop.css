@@ -1,0 +1,121 @@
+html {
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+header {
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  display: inline-block;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 3.136rem;
+  margin-top: -10px;
+}
+header #logo {
+  width: 50px;
+  float: left;
+  position: absolute;
+  padding-left: 0.45rem;
+}
+a {
+  color: gray;
+  float: right;
+  padding: 10px;
+}
+
+#mission {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 30px auto;
+  height: 31.8rem;
+  width: 100%;
+  top: 3.13rem;
+  position: relative;
+  display: flex;
+  text-align: center;
+}
+.title {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.title h2 {
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0.75rem;
+}
+.title h2 {
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0.75rem;
+}
+
+.tea {
+  margin: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-content: center;
+  align-items: center;
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 45rem;
+  height: auto;
+  flex-wrap: wrap;
+  margin: auto;
+}
+h4 {
+  text-align: center;
+  justify-content: center;
+}
+.categories img {
+  display: flex;
+  width: 300px;
+  height: 200px;
+}
+
+#location {
+  background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 2rem auto;
+  height: 22.7272rem;
+  max-width: 54.54rem;
+  padding-top: 3.1363636363636362rem;
+  text-align: center;
+}
+
+.locationbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+.locationbox .box {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+}
+
+footer {
+  text-align: center;
+  height: 200px;
+}
+.copyright {
+  position: absolute;
+  padding: 20px;
+  left: 20px;
+}
